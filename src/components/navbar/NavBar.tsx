@@ -1,13 +1,27 @@
 import NavButton from "./NavButton"
-import logo from "../../../public/T_logo.png"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import { FcDatabase } from 'react-icons/fc'
 import { useState } from "react"
+import ContentObject from "../../contentType"
 
+const getTitles = (content: ContentObject): string[] => {
+    const entries = Object.values(content).reduce(
+        (accVal, curVal) => {
+            if(curVal.title) accVal.push(curVal.title);
+            return accVal;
+        },
+        []
+    );
+    return entries;
+}
 
-const NavBar = () => {
+const NavBar = ({content}: {content: ContentObject}) => {
 
     const [menyToggle, setMenyToggle] = useState(false);
+
+    const entries = getTitles(content)
+
+    const logo: StaticImageData = require(`../../../public/images/${content.logo}`)
 
     return (
         <>
@@ -16,11 +30,11 @@ const NavBar = () => {
                     <Image src={logo} alt="no img" />
                 </div>
                 <ul>
-                    <NavButton title="Languages" scrollToId="languages" />
-                    <NavButton title="Experience" scrollToId="experience" />
-                    <NavButton title="Education" scrollToId="edu_background" />
-                    <NavButton title="About Me" scrollToId="about" />
-                    <NavButton title="Intro" scrollToId="intro" />
+                    {entries.reverse().map((entry) => {
+                        return(
+                            <NavButton title={entry.toUpperCase()} scrollToId={entry} key={entry} />
+                        )
+                    })}
                 </ul>
             </div>
 
@@ -34,11 +48,11 @@ const NavBar = () => {
             </div>
             <div className={` fixed flex left-0 top-[6rem]  w-[15rem] z-10 bg-[#F4F1DE] shadow-sm shadow-gray-800 2xl:invisible visible ${menyToggle ? 'visible' : 'invisible'}`}>
                 <ul>
-                    <NavButton title="Intro" scrollToId="intro" />
-                    <NavButton title="About Me" scrollToId="about" />
-                    <NavButton title="Education" scrollToId="edu_background" />
-                    <NavButton title="Experience" scrollToId="experience" />
-                    <NavButton title="Languages" scrollToId="languages" />
+                    {entries.map((entry) => {
+                        return(
+                            <NavButton title={entry.toUpperCase()} scrollToId={entry} key={entry} />
+                        )
+                    })}
                 </ul>
             </div>
         </>

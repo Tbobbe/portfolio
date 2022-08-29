@@ -18,35 +18,3 @@ html {
   }
 
 }
-
-@layer components {
-
-  .bg {
-    @apply  fixed top-0 left-0 -z-10 w-screen h-auto
-  }
-
-}
-
-@layer animations {
-
-  .linear_animation {
-    @apply transition-all duration-300 ease-linear
-  }
-
-  .fade_from_top {
-    @apply translate-y-10 opacity-100
-  }
-
-  .fade_from_bottom {
-    @apply -translate-y-10 opacity-100
-  }
-
-  .fade_from_left {
-    @apply translate-x-10 opacity-100
-  }
-
-  .fade_from_right {
-    @apply -translate-x-10 opacity-100
-  }
-
-}

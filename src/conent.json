@@ -1,0 +1,66 @@
+{
+    "name": "Tobias",
+    "background": "background.png",
+    "logo": "T_logo.png",
+    "intro": {
+        "title": "intro",
+        "heading": "A Software Engineer In Love With Functional Programming",
+        "text": "Thank you for checking out this page about me! It was created by myself using Next.js and Tailwind CSS",
+        "githubLink": "https://github.com/Tbobbe",
+        "linkedInLink": "www.linkedin.com/in/tobias-bäckemo-3927491a1",
+        "mailLink": "mailto:tobias.backemo@gmail.com"
+    },   
+    "about": {
+        "title": "about",
+        "heading": "About me",
+        "text": "Hi there! As you should know now after reading the headline, I am a software engineer. Naturally, programming and computers is a passion of mine, but I have more interests than just my job. I enjoy being outdoors in nature, especially I like hiking the swedish montains in the summer and skiing in the winter. I also have a passion for martial arts. During my young years I practiced a lot of judo and ju-jutsu, then later, during my studies at the university, I picked up krav maga. Other than that I enjoy what most people enjoy: A drink on the weekend, travelling on vacation and good food.",
+        "image": "profilbild_delta.jpg"
+    },
+    "education": {
+        "title": "education",
+        "entries": [
+            {
+                "heading": "Chalmers",
+                "years": "2017-2022",
+                "text": "I started my education at Chalmers University of Technology in the summer of 2017. Five years alter, in the summer of 2022 i finished my master thesis and left Chalmers with a bachelor in Computer Science and Enginering and a master degree in Algorithms, Languages and Logic. But my time at Chalmers did not only include studying, I also took part in many student activities and was involved in multiple student commités. My time at the university was without a doubt one of the most fun parts of my life.",
+                "mainImage": "chalmers_logo.png",
+                "image1": "bar.jpg",
+                "image2": "kostym.jpg",
+                "image3": "bar2.jpg"
+    
+            }
+        ]
+    },
+    "experiences": {
+        "title": "experience",
+        "entries": [
+            {
+                "heading": "Intern at Ericsson",
+                "years": "2020-2022",
+                "text": "During my master studies I spent two years as an intern at Ericsson. During the summer I worked full time and the rest of the year I worked part time. While at Ericsson I learned a lot! I gained experience in how to work in the Linux environment, I got to work with tools for the CI pipeline such as Jenkins and I got to work with both front-end, back-end and scripting languages.",
+                "logo": "Ericsson_logo.png"
+            }
+        ]
+    },
+    "languages": {
+        "title": "languages",
+        "entries": [
+            {
+                "heading": "Haskell",
+                "text": "Haskell is a purely functional programming language. A lot of the functional tools one can see in modern programming languages of all paradigms originates from Haskell. For example monads (they are very useful once you get to know them). Since Haskell is built for functionall programming and functional programming oonly, it's syntax is very expressive and one can write code with a lot of functionality using only a few lines. Haskell is also ideal for applying a functional program architecture which yields a program that is safe, has few bugs and is easy to maintain.",
+                "logo": "haskell_logo.png"
+            },
+            {
+                "heading": "Scala",
+                "text": "Scala is a mix of an object oriented and a functional programming language. It runs on the Java Virtual Machine which means that it can use the Java libraries. Campared to Java however, Scala has, in my oppinion, a much cleaner and more concise syntax. It also supports a lot of functional programming features such as immutable data structures.",
+                "logo": "scala_logo.png"
+            }
+        ]
+    },
+    "footer": {
+        "githubLink": "https://github.com/Tbobbe",
+        "linkedInLink": "www.linkedin.com/in/tobias-bäckemo-3927491a1",
+        "mailLink": "mailto:tobias.backemo@gmail.com"
+    }
+
+}
