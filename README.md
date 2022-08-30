@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+
+This is a customizable portfolio website written using [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
 ## Getting Started
+Prerequisites: You need to have **NodeJS** installed.
 
-First, run the development server:
+First clone the repo to your computer.
+```bash
+git clone https://github.com/Tbobbe/portfolio.git
+```
+
+Install all dependencies:
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Congratulations! You are now running a portfolio website!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Customize to make it your own
+To customize the page into your own portfolio you need to do **two** things: Get your images and edit the *content.json* file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Images
+To use your images just put them into the `public/images/` directory. 
+**Important:** Some images need to be in a specific format, like 1:1, otherwise the page might look really weird.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### content.json
+To change the content of the page you need to edit the `content.json` file which is located in the `src/` directory. The first three fields to fill in are the `name`, `background`, and `logo` fields.
 
-## Learn More
+`name`: Your name
 
-To learn more about Next.js, take a look at the following resources:
+`background`: The name of the image that will be used for the background. Use the one provided or your own which you put into `public/images/`. If your portfolio site gets too tall, you might need a taller background than the one provided (I have not created an infinite background yet).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`logo`: Your personal 1:1 logotype/icon which you put into `public/images/`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Now you can add stuff to your site! There are currently 6 types of content you can add:
+- Intro
+- About
+- Education
+- Experiences
+- Languages
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can use them all or only some of them if you want. Education, Experience, and Languages allow for multiple entries.
+The easiest way to experience this is to simply take a look at the `content.json` file and experiment!

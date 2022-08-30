@@ -17,8 +17,8 @@ const Education = ({data}: {data:EducationObject}) => {
 
     return (
             <div ref={background} className={` w-[90%] rounded-xl bg-[#F4F1DE] h-[40rem] mx-auto mb-[40rem] transition-all duration-1000 ease-linear ${backgroundInView ? '-translate-y-10 opacity-100' : 'opacity-0'}`}>
-                <div ref={logo} className={` rounded-full top-[-15rem] 2xl:left-[5rem] -left-10 2xl:mx-0 mx-auto h-[25rem] w-[25rem] border-8 border-[#3D405B] bg-white relative transition-all duration-1000 ease-linear ${logoInView ? 'translate-x-10 opacity-100' : 'opacity-0'} `}>
-                    <Image src={mainImage} alt={"Chalmers"} />
+                <div ref={logo} className={` rounded-full top-[-15rem] 2xl:left-[5rem] -left-10 2xl:mx-0 mx-auto h-[25rem] w-[25rem] border-8 border-[#3D405B] relative transition-all duration-1000 ease-linear ${logoInView ? 'translate-x-10 opacity-100' : 'opacity-0'} `}>
+                    <Image src={mainImage} alt={"Chalmers"} className="rounded-full" />
                 </div>
                 <div ref={textbox} className={` 2xl:float-right 2xl:mr-[5%] mx-auto 2xl:left-0 left-10 2xl:h-[35rem] h-[40rem] 2xl:w-[50%] w-[80%] 2xl:top-[-40rem] top-[-5rem] border-8 border-[#3D405B] bg-[#F4F1DE] rounded-xl relative p-8 transition-all duration-1000 ease-linear ${textboxImgInView ? '-translate-x-10 opacity-100' : 'opacity-0'} `}>
                     <h1 className=" text-6xl text-[#E07A5F] ">

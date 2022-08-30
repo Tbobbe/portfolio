@@ -19,7 +19,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Tobias | Software Engineer</title>
+        <title>{content.name} | Software Engineer</title>
         <meta name='Portfolio' content='A portfolio website' />
         <link rel='icon' href='images/T_logo.png' />
       </Head>
