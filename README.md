@@ -21,7 +21,19 @@ Run the development server:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Congratulations! You are now running a portfolio website!
+The above command will start the development server which recompiles every time changes have been made to the source files. This is great if you want to do changes and see the effect immediately. **Alternatively**, you can build an optimized version of the project and start the normal server.
+
+Build the project:
+```bash
+npm run build
+```
+
+Start the server:
+```bash
+npm run start
+```
+
+When you have started either the development server or built the project and started the normal server, open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Congratulations! You are now running a portfolio website!
 
 ## Customize to make it your own
 To customize the page into your own portfolio you need to do **two** things: Get your images and edit the *content.json* file.

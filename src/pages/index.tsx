@@ -15,11 +15,12 @@ const Home: NextPage = () => {
 
   const contentJSON: JSON = require("../conent.json");
   const content: ContentObject = JSON.parse(JSON.stringify(contentJSON));
-  
+  const title = `${content.name} | Software Engineer`
+
   return (
     <>
       <Head>
-        <title>{content.name} | Software Engineer</title>
+        <title>{title}</title>
         <meta name='Portfolio' content='A portfolio website' />
         <link rel='icon' href='images/T_logo.png' />
       </Head>

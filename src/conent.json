@@ -7,14 +7,14 @@
         "heading": "A Software Engineer With A Passion Functional Programming",
         "text": "Thank you for checking out this page about me! It was created by myself using Next.js and Tailwind CSS",
         "githubLink": "https://github.com/Tbobbe",
-        "linkedInLink": "www.linkedin.com/in/tobias-bäckemo-3927491a1",
+        "linkedInLink": "https://www.linkedin.com/in/tobias-b%C3%A4ckemo-3927491a1/",
         "mailLink": "mailto:tobias.backemo@gmail.com"
     },   
     "about": {
         "title": "about",
         "heading": "About me",
         "text": "Hi there! As you should know now after reading the headline, I am a software engineer. Naturally, programming and computers are a passion of mine, but I have more interests than just my job. I enjoy being outdoors in nature, especially I like hiking the Swedish mountains in the summer and skiing in the winter. I also have a passion for martial arts. During my young years I practiced a lot of judo and Ju-Jutsu, then later, during my studies at the university, I picked up krav maga. Other than that I enjoy what most people enjoy: A drink on the weekend, traveling on vacation, and good food.",
-        "image": "profilbild_delta.jpg"
+        "image": "profilbild_delta.png"
     },
     "education": {
         "title": "education",
@@ -24,9 +24,9 @@
                 "years": "2017-2022",
                 "text": "I started my education at Chalmers University of Technology in the summer of 2017. Five years later, in the summer of 2022, I finished my master's thesis and left Chalmers with a bachelor's in Computer Science and Engineering and a master's degree in Algorithms, Languages, and Logic. But my time at Chalmers did not only include studying, I also took part in many student activities and was involved in multiple student commités. My time at the university was without a doubt one of the most fun parts of my life.",
                 "mainImage": "chalmers_logo.svg",
-                "image1": "bar.jpg",
-                "image2": "kostym.jpg",
-                "image3": "bar2.jpg"
+                "image1": "bar.png",
+                "image2": "kostym.png",
+                "image3": "bar2.png"
     
             }
         ]
@@ -64,7 +64,7 @@
     },
     "footer": {
         "githubLink": "https://github.com/Tbobbe",
-        "linkedInLink": "www.linkedin.com/in/tobias-bäckemo-3927491a1",
+        "linkedInLink": "https://www.linkedin.com/in/tobias-b%C3%A4ckemo-3927491a1/",
         "mailLink": "mailto:tobias.backemo@gmail.com"
     }
 
