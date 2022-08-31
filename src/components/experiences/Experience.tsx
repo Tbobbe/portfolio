@@ -10,7 +10,7 @@ const Experience = ({data}: {data: ExperienceObject}) => {
     const logo: StaticImageData = require(`../../../public/images/${data.logo}`)
 
     return (
-        <div ref={experience} className={` 2xl:w-[90%] w-[80%] flex-grow rounded-2xl bg-[#F4F1DE] mx-auto 2xl:flex 2xl:items-center 2xl:justify-between p-16 mb-[5rem] transition-all duration-1000 ease-linear ${experienceInView ? ' -translate-y-10 opacity-100' : 'opacity-0' }`}>
+        <div ref={experience} className={` 2xl:w-[90%] w-[80%] flex-grow rounded-2xl bg-[#F4F1DE] mx-auto 2xl:flex 2xl:items-center 2xl:justify-between mb:p-16 p-8 mb-[5rem] transition-all duration-1000 ease-linear ${experienceInView ? ' -translate-y-10 opacity-100' : 'opacity-0' }`}>
             <div className=" rounded-2xl md:h-[20rem] h-[15rem] md:w-[20rem] w-[15rem] 2xl:ml-[3%] mx-auto " >
                 <Image src={logo} alt={"No image"} />
             </div>

@@ -10,7 +10,7 @@ const Intro = ({data, name}: {data: IntroObject, name: string}) => {
 
     return (
         <div className='flex'>
-            <div ref={ref} id={`${data.title}`} className={` w-screen text-center pt-[20rem] md:mb-[20rem] mb-[10rem] items-center top-0 left-0 transition-all duration-1000 ease-linear ${inView ? 'translate-y-10 opacity-100' : 'opacity-0'} `} >
+            <div ref={ref} id={`${data.title}`} className={` w-screen text-center md:pt-[20rem] pt-[5rem] md:mb-[20rem] mb-[10rem] items-center top-0 left-0 transition-all duration-1000 ease-linear ${inView ? 'translate-y-10 opacity-100' : 'opacity-0'} `} >
                 <div className={`w-[90%] flex-grow bg-[#F4F1DE] rounded-3xl mx-auto p-2 flex justify-center items-center `}>
                     <div>
                         <h1 className=" py-4 text-[#3D405B]">
