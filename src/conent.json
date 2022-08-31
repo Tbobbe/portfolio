@@ -3,7 +3,7 @@
     "logo": "T_logo.png",
     "intro": {
         "title": "intro",
-        "heading": "A Software Engineer With A Passion Functional Programming",
+        "heading": "A Software Engineer With A Passion For Functional Programming",
         "text": "Thank you for checking out this page about me! It was created by myself using Next.js and Tailwind CSS",
         "githubLink": "https://github.com/Tbobbe",
         "linkedInLink": "https://www.linkedin.com/in/tobias-b%C3%A4ckemo-3927491a1/",
