@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='images/T_logo.png' />
       </Head>
 
-      <Bg background={content.background} />
+      <Bg />
       <NavBar content={content}/>
       {content.intro ? <Intro data={content.intro} name={content.name} /> : <></>}
       {content.about ? <About data={content.about} /> : <></>}

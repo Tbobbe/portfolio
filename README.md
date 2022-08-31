@@ -39,15 +39,14 @@ When you have started either the development server or built the project and sta
 To customize the page into your own portfolio you need to do **two** things: Get your images and edit the *content.json* file.
 
 ### Images
-To use your images just put them into the `public/images/` directory. 
+To use your images just put them into the `public/images/` directory. To set the **background**, name it `background.png` and put it in the `public/images/` directory.
+
 **Important:** Some images need to be in a specific format, like 1:1, otherwise the page might look really weird.
 
 ### content.json
-To change the content of the page you need to edit the `content.json` file which is located in the `src/` directory. The first three fields to fill in are the `name`, `background`, and `logo` fields.
+To change the content of the page you need to edit the `content.json` file which is located in the `src/` directory. The first two fields to fill in are the `name` and `logo` fields.
 
 `name`: Your name
-
-`background`: The name of the image that will be used for the background. Use the one provided or your own which you put into `public/images/`. If your portfolio site gets too tall, you might need a taller background than the one provided (I have not created an infinite background yet).
 
 `logo`: Your personal 1:1 logotype/icon which you put into `public/images/`.
 

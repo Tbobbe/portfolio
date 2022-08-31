@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
-import Image, { StaticImageData } from "next/image"
 
-const Bg = ({background}: {background: string}) => {
+const Bg = () => {
 
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.scrollY);
 
-  const image: StaticImageData = require(`../../../public/images/${background}`)
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -15,14 +13,7 @@ const Bg = ({background}: {background: string}) => {
   })
 
   return (
-      <div className=" fixed top-0 left-0 -z-10 w-screen h-auto ">
-        <Image 
-          src={image}
-          alt="No background image"
-          className={" -z-10 "}
-          style={{transform: `translateY(${offsetY*-0.3}px)`}}
-      />
-      </div>
+      <div className={` fixed top-0 left-0 -z-10 w-full h-[30000px] bg-background `} style={{transform: `translateY(${offsetY*-0.3}px)`}} />
   )
 }
 

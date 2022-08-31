@@ -7,7 +7,6 @@ import AboutObject from './components/about/AboutTypes'
 
 interface ContentObject {
   name: string;
-  background: string;
   logo: string;
   intro?: IntroObject;
   about?: AboutObject;

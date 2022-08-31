@@ -5,7 +5,7 @@ const Educations = ({data}: {data: EducationsObject}) => {
 
     return (
         <div className="flex">
-            <div id="education" className=" w-screen pt-[30rem] ">
+            <div id={`${data.title}`} className=" w-screen pt-[30rem] ">
                 {data.entries.map((entry => {
                     return(
                         <Education data={entry} key={entry.heading} />
