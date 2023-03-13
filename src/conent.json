@@ -8,7 +8,7 @@
         "githubLink": "https://github.com/Tbobbe",
         "linkedInLink": "https://www.linkedin.com/in/tobias-b%C3%A4ckemo-3927491a1/",
         "mailLink": "mailto:tobias.backemo@gmail.com"
-    },   
+    },
     "about": {
         "title": "about",
         "heading": "About me",
@@ -26,7 +26,6 @@
                 "image1": "bar.png",
                 "image2": "kostym.png",
                 "image3": "bar2.png"
-    
             }
         ]
     },
@@ -38,6 +37,12 @@
                 "years": "2020-2022",
                 "text": "During my master's studies, I spent two years as an intern at Ericsson. During the summer I worked full time and the rest of the year I worked part-time. While at Ericsson I learned a lot! I gained experience in how to work in the Linux environment, I got to work with tools for the CI pipeline such as Jenkins and I got to work with both front-end, back-end, and scripting languages.",
                 "logo": "Ericsson_logo.png"
+            },
+            {
+                "heading": "Software developer at Lunaris",
+                "years": "2022-2023",
+                "text": "Even though I had just finished my master's thesis and had only just gotten used to the life in Japan, I was eager to put what I had learned during the years to good use. I very soon found a workplace that almost seemed too good to be true. Not only would I get to work with the amazing functional programming language Elixir, they also had a reasonable western working culture (unpaid overtime is not uncommon in Japan). Luckily enough, I got the job. During my time at Lunaris I got a lot of experience, not only in Elixir, but also project development, product deployment and maintenance. On top of it all, I got to meet many talented and kind new friends. I have only good memories from my time at Lunaris.",
+                "logo": "lunaris_logo.png"
             }
         ]
     },
@@ -55,9 +60,9 @@
                 "logo": "scala_logo.png"
             },
             {
-                "heading": "Erlang",
-                "text": "Erlang is a functional programming language that originated from Ericsson. It has one simple purpose: To be the best programming language for writing highly concurrent and fault tolerant systems. In this, I think it succeeds. The ease with which you can spawn new processes and send messages between multiple processes made me fall for Erlang. A popular programming language for backend web development, you might have heard of, called Elixir is built on top of Erlang.",
-                "logo": "erlang_logo.png"
+                "heading": "Elixir",
+                "text": "Elixir is a functional programming language built on top of Erlang which in turn originated from Ericsson. Erlang had one simple purpose: To be the best programming language for writing highly concurrent and fault tolerant systems. Elixir build upon this, providing a more concise and Ruby-like syntax. The ease with which you can spawn new processes and send messages between multiple processes originally made me fall for Erlang. On top of what Erlang provides, Elixir also provides top of the line documentation, tooling and frameworks such as the Phoenix framework for building web applications. It also has a very active and friendly community.",
+                "logo": "elixir.png"
             }
         ]
     },
@@ -66,5 +71,4 @@
         "linkedInLink": "https://www.linkedin.com/in/tobias-b%C3%A4ckemo-3927491a1/",
         "mailLink": "mailto:tobias.backemo@gmail.com"
     }
-
 }
